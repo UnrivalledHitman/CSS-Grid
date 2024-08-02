@@ -1,0 +1,15 @@
+/* 
+Tasks:
+1) Make the grid 10 columns wide, every other takin up twice the free space
+2) Make the grid have 10 explicit rows, 50px high each
+3) Item 1: start at col 3 and go until 5
+4) Item 2: start at col 5 and go until :end
+5) Item 8: two rows high
+6) Item 15: span the entire grid width
+7) Item 18: span 4 widths, but end at 9
+8) Item 20: start at row 4 and go for 3 
+*/
+.container {
+  display: grid;
+  gap: 20px;
+}
